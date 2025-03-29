@@ -9,8 +9,8 @@ body{
 }
 .plantilla{
     width: 90%;
-    max-width: 450px;
-    background: linear-gradient(135deg, #572c70, #6f2c70);
+    max-width: 470px;
+    background: linear-gradient(135deg, #b4e7ef, #51d4c4);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 25px;
@@ -46,4 +46,37 @@ body{
 }
 .buscar button img{
     width: 30px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 200;
+    margin-top: -10px;
+}
+.detalles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.colum{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.colum img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humedad, .viento{
+    font-size: 29px;
+    margin-top: -6px;
 }
